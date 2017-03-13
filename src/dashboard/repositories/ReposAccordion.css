@@ -1,0 +1,54 @@
+.Accordion-repos {
+    margin-top: 2em;
+}
+.Accordion-repos-header {
+    cursor: pointer;
+    padding: 1em;
+}
+.Accordion-repos-header-blue {
+    background-color: #66ccff;
+}
+.Accordion-repos-header-purple {
+    background-color: #D0A9F5;
+}
+.Accordion-repos-header h2 {
+    color: white;
+}
+
+.Accordion-item {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+}
+.Accordion-item-blue {
+    background-color: #99ccff;
+    color: #003399;
+}
+.Accordion-item-purple {
+    background-color: #BCA9F5;
+    color: #210B61;
+}
+.Accordion-item-more-purple {
+    text-decoration: underline;
+    border: none;
+    color: #ffffff;
+}
+.Accordion-item-more-blue {
+    background-color: #66ccff;
+}
+.Accordion-item-more-purple {
+    background-color: #D0A9F5;
+}
+
+.Accordion-arrow {
+    width: 8px;
+    margin-right: 16px;
+}
+.Accordion-arrow-close {
+    transform: rotate(90deg);
+}
+.Accordion-arrow-open {
+    transform: rotate(270deg);
+}

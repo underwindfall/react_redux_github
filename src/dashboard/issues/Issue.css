@@ -1,0 +1,32 @@
+.Issue-content {
+    position: relative;
+    height: 128px;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #ff6666;
+}
+.Issue-content:active {
+    opacity: .8;
+}
+
+.Issue-content  h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 8px;
+    font-size: .9em;
+    color: #fff;
+}
+
+.Issue-content-left {
+    margin-right: .5em;
+}
+.Issue-content-right {
+    margin-left: .5em;
+}

@@ -1,0 +1,57 @@
+.Trends-content {
+    text-align: right;
+    padding: 1em;
+}
+.Trends-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Search-content {
+    height: calc(100vh - 140px);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-content-label {
+    color: white;
+}
+
+.Search-content-input {
+    margin-left: 1em;
+    padding: .5em;
+    font-size: 1em;
+    border: 2px solid #003399;
+}
+
+.Search-content-button-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.Search-content-button {
+    width: 96px;
+    height: 96px;
+    margin-top: 2em;
+    line-height: 96px;
+    border-radius: 48px;
+    background-color: #66ccff;
+    border: 2px solid #003399;
+    background: linear-gradient(to bottom, #66ccff 0, #4da6ff 50%, #003399 100%);
+    color: #fff;
+    cursor: pointer;
+}
+.Search-content-button:active {
+    opacity: .8;
+}
+
+.Search-content-button-text {
+    align-self: center;
+}

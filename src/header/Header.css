@@ -1,0 +1,23 @@
+.Header-container {
+    background-color: #003399;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: .2em solid #000099;
+}
+.Header-container h2 {
+    color: white;
+}
+
+.Header-back {
+    position: absolute;
+    left: 1em;
+    margin-top: .5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.Header-back-image {
+    height: 12px;
+    margin-right: 8px;
+}

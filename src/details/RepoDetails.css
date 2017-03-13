@@ -1,0 +1,39 @@
+.Repo-header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.Repo-header a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.Repo-header-stars {
+    font-size: 1.5em;
+    color: #66ccff;
+}
+
+.Repo-content-text {
+    color: #ffffff;
+}
+.Repo-content-language {
+    color: #ff9900;
+    font-style: italic;
+}
+.Repo-content-dates {
+    color: #ff6666;
+}
+.Repo-content-dates p {
+    margin: 0;
+}
+.Repo-content-description {
+    font-size: 1.2em;
+    margin: 2em 0;
+}
+.Repo-content-issues {
+    margin-top: 5em;
+    color: #66ccff;
+}
+.Repo-content-link a {
+    color: #4B088A;
+}
